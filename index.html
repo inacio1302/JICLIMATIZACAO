@@ -1,0 +1,1928 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO BÁSICO -->
+  <title>JICLIMATIZAÇÃO | Higienização e Manutenção de Ar Condicionado em São Paulo</title>
+  <meta name="description" content="JICLIMATIZAÇÃO é especialista em higienização, limpeza e manutenção de ar condicionado split em São Paulo e região. Atendimento rápido, preço justo e garantia de serviço." />
+  <meta name="keywords" content="higienização de ar condicionado, limpeza de ar condicionado, manutenção de ar condicionado, climatização, São Paulo" />
+  <meta name="author" content="JICLIMATIZAÇÃO" />
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="JICLIMATIZAÇÃO | Higienização de Ar Condicionado" />
+  <meta property="og:description" content="Respire ar puro! Higienização profissional de ar condicionado com equipamentos e produtos adequados." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.seusite.com" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1607379969451-3df5c752f315?auto=format&fit=crop&q=80&w=1200" />
+
+  <!-- FONTES -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ============= RESET BÁSICO ============= */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: #1f2933;
+      background: #f5f7fa;
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    :root {
+      --azul-escuro: #002244;
+      --azul-medio: #0f6fff;
+      --azul-claro: #e5f0ff;
+      --verde-whatsapp: #25d366;
+      --cinza-claro: #f5f7fa;
+      --cinza-borda: #e1e7ef;
+      --texto-principal: #1f2933;
+      --texto-suave: #6b7a90;
+      --dourado-promo: #ffcc00;
+      --vermelho-alerta: #ff4757;
+    }
+
+    /* ============= BARRA DE URGÊNCIA ============= */
+    .top-bar {
+      background: linear-gradient(90deg, #ffb700, #ff6b00);
+      color: #111827;
+      text-align: center;
+      padding: 8px 16px;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .top-bar span {
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.1);
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    /* ============= HEADER / NAV ============= */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+    }
+
+    .nav-container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--azul-escuro), var(--azul-medio));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 900;
+      font-size: 20px;
+      box-shadow: 0 10px 25px rgba(0, 34, 68, 0.4);
+      flex-shrink: 0;
+    }
+
+    .logo-text h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 22px;
+      letter-spacing: -0.5px;
+      color: var(--azul-escuro);
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+
+    .logo-text span {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--texto-suave);
+      letter-spacing: 1.2px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      font-size: 14px;
+      color: var(--texto-suave);
+    }
+
+    nav a:hover {
+      color: var(--azul-medio);
+    }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-phone {
+      font-size: 13px;
+      color: var(--texto-suave);
+    }
+
+    .nav-phone strong {
+      color: var(--texto-principal);
+    }
+
+    .btn-whats-nav {
+      background: var(--verde-whatsapp);
+      color: #fff;
+      padding: 9px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 8px 18px rgba(37, 211, 102, 0.4);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .btn-whats-nav:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(37, 211, 102, 0.5);
+      filter: brightness(1.02);
+    }
+
+    /* ============= HERO ============= */
+    .hero {
+      background: radial-gradient(circle at top left, #e3f2ff 0, #f5f7fa 40%, #ffffff 100%);
+      border-bottom: 1px solid var(--cinza-borda);
+    }
+
+    .hero-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 52px 20px 72px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(15, 111, 255, 0.06);
+      border: 1px solid rgba(15, 111, 255, 0.18);
+      color: #0743a0;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 14px;
+    }
+
+    .hero-badge span {
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--verde-whatsapp);
+    }
+
+    .hero h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 38px;
+      line-height: 1.15;
+      color: var(--azul-escuro);
+      margin-bottom: 14px;
+    }
+
+    .hero h2 span {
+      color: var(--azul-medio);
+    }
+
+    .hero-subtitle {
+      font-size: 15px;
+      color: var(--texto-suave);
+      max-width: 470px;
+      margin-bottom: 24px;
+    }
+
+    .hero-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 30px;
+      font-size: 13px;
+      color: var(--texto-principal);
+    }
+
+    .hero-highlights div {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #fff;
+      border: 1px solid var(--cinza-borda);
+    }
+
+    .hero-highlights div span {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #10b981;
+      flex-shrink: 0;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .btn-cta {
+      background: linear-gradient(135deg, #1ebd61, #10a148);
+      color: #fff;
+      padding: 16px 28px;
+      border-radius: 999px;
+      font-size: 15px;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 18px 40px rgba(16, 161, 72, 0.4);
+      transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+    }
+
+    .btn-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 24px 48px rgba(16, 161, 72, 0.55);
+      filter: brightness(1.03);
+    }
+
+    .btn-secundario {
+      padding: 14px 22px;
+      border-radius: 999px;
+      border: 1px dashed var(--azul-medio);
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--azul-medio);
+      background: rgba(229, 240, 255, 0.7);
+      backdrop-filter: blur(6px);
+    }
+
+    .hero-garantia {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      color: var(--texto-suave);
+      flex-wrap: wrap;
+    }
+
+    .hero-garantia span.badge {
+      padding: 3px 9px;
+      border-radius: 999px;
+      border: 1px solid #10b981;
+      color: #047857;
+      font-weight: 600;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    .hero-media {
+      position: relative;
+    }
+
+    .hero-photo-wrapper {
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(15, 23, 42, 0.35);
+      transform: translateY(6px);
+    }
+
+    .hero-photo-wrapper img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      filter: saturate(1.1) contrast(1.02);
+    }
+
+    .hero-floating-card {
+      position: absolute;
+      left: -18px;
+      bottom: 18px;
+      background: rgba(255, 255, 255, 0.96);
+      border-radius: 18px;
+      padding: 12px 16px;
+      box-shadow: 0 14px 36px rgba(15, 23, 42, 0.3);
+      font-size: 11px;
+      color: var(--texto-suave);
+      max-width: 220px;
+      backdrop-filter: blur(8px);
+    }
+
+    .hero-floating-card strong {
+      color: var(--azul-escuro);
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .hero-floating-card span {
+      font-size: 10px;
+      color: #10b981;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    .section-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .section-head {
+      margin-bottom: 32px;
+      text-align: left;
+    }
+
+    .section-eyebrow {
+      font-size: 11px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: var(--azul-medio);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .section-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 26px;
+      color: var(--azul-escuro);
+      margin-bottom: 6px;
+    }
+
+    .section-subtitle {
+      font-size: 14px;
+      color: var(--texto-suave);
+      max-width: 520px;
+    }
+
+    /* ============= SEÇÃO PROMOÇÃO ============= */
+    .promo {
+      background: #ffffff;
+      border-top: 1px solid var(--cinza-borda);
+    }
+
+    .promo-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 32px;
+      align-items: center;
+    }
+
+    .alert-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(255, 71, 87, 0.1);
+      color: #b91c1c;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    .alert-tag span {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: #ef4444;
+    }
+
+    .promo-list {
+      list-style: none;
+      margin-top: 12px;
+      font-size: 14px;
+      color: var(--texto-principal);
+    }
+
+    .promo-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .promo-list li::before {
+      content: "✓";
+      color: #059669;
+      font-weight: 700;
+      margin-top: 1px;
+      flex-shrink: 0;
+    }
+
+    .promo-card {
+      background: linear-gradient(145deg, #051937, #002d5a);
+      color: #e5f0ff;
+      border-radius: 22px;
+      padding: 22px 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .promo-ribbon {
+      position: absolute;
+      top: 14px;
+      right: -40px;
+      background: linear-gradient(135deg, #ffcc00, #ff8800);
+      color: #111827;
+      padding: 5px 40px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      transform: rotate(35deg);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+    }
+
+    .promo-card h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    .promo-card p {
+      font-size: 13px;
+      color: #b9d3ff;
+      margin-bottom: 14px;
+    }
+
+    .promo-preco-linha {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .preco-atual {
+      font-size: 30px;
+      font-weight: 800;
+      color: #fef9c3;
+    }
+
+    .preco-atual sup {
+      font-size: 14px;
+      margin-right: 2px;
+    }
+
+    .preco-antigo {
+      font-size: 14px;
+      color: #94a3b8;
+      text-decoration: line-through;
+    }
+
+    .promo-detalhe {
+      font-size: 11px;
+      color: #cbd5f5;
+      margin-bottom: 14px;
+    }
+
+    .promo-vagas {
+      font-size: 11px;
+      color: #fef9c3;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .promo-vagas span {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #f97316;
+      box-shadow: 0 0 0 5px rgba(248, 113, 113, 0.18);
+      flex-shrink: 0;
+    }
+
+    .btn-cta-promo {
+      margin-top: 16px;
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      font-size: 14px;
+      padding: 14px 0;
+    }
+
+    /* ============= SEÇÃO SERVIÇOS ============= */
+    .services {
+      background: #f8fafc;
+      border-top: 1px solid var(--cinza-borda);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .service-card {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 18px 16px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+      border-color: rgba(15, 111, 255, 0.6);
+    }
+
+    .service-icon {
+      width: 34px;
+      height: 34px;
+      border-radius: 12px;
+      background: var(--azul-claro);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--azul-escuro);
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .service-title {
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--azul-escuro);
+    }
+
+    .service-text {
+      font-size: 13px;
+      color: var(--texto-suave);
+    }
+
+    .service-tag {
+      margin-top: auto;
+      font-size: 11px;
+      color: #0f766e;
+      background: #ecfdf3;
+      padding: 3px 9px;
+      border-radius: 999px;
+      align-self: flex-start;
+    }
+
+    /* ============= SEÇÃO BENEFÍCIOS ============= */
+    .beneficios {
+      background: #ffffff;
+      border-top: 1px solid var(--cinza-borda);
+    }
+
+    .beneficios-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 32px;
+      align-items: center;
+    }
+
+    .beneficios-lista {
+      list-style: none;
+      font-size: 14px;
+      color: var(--texto-principal);
+    }
+
+    .beneficios-lista li {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .beneficios-lista li span.icon {
+      width: 22px;
+      height: 22px;
+      border-radius: 999px;
+      background: #ecfdf3;
+      color: #16a34a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    .beneficios-high {
+      margin-top: 14px;
+      font-size: 13px;
+      color: var(--texto-suave);
+    }
+
+    .beneficios-card {
+      background: #0b1120;
+      border-radius: 22px;
+      padding: 18px 18px 20px;
+      color: #e5e7eb;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .beneficios-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url('https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&q=80&w=1200') center/cover no-repeat;
+      opacity: 0.2;
+      mix-blend-mode: screen;
+      pointer-events: none;
+    }
+
+    .beneficios-card-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    .beneficios-card h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+
+    .beneficios-card p {
+      font-size: 13px;
+      color: #cbd5f5;
+      margin-bottom: 14px;
+    }
+
+    .beneficios-metricas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 12px;
+    }
+
+    .beneficios-metricas div strong {
+      display: block;
+      font-size: 18px;
+      color: #facc15;
+    }
+
+    /* ============= DEPOIMENTOS ============= */
+    .testemunhos {
+      background: #f8fafc;
+      border-top: 1px solid var(--cinza-borda);
+    }
+
+    .testemunhos-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .testemunho-card {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 16px 16px 18px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+      font-size: 13px;
+      color: var(--texto-suave);
+    }
+
+    .testemunho-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .testemunho-avatar {
+      width: 30px;
+      height: 30px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #e5e7eb;
+      font-weight: 700;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    .testemunho-info strong {
+      display: block;
+      color: var(--texto-principal);
+    }
+
+    .testemunho-info span {
+      font-size: 11px;
+      color: var(--texto-suave);
+    }
+
+    .testemunho-stars {
+      color: #f59e0b;
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    /* ============= CONTATO ============= */
+    .contato {
+      background: #ffffff;
+      border-top: 1px solid var(--cinza-borda);
+    }
+
+    .contato-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+      gap: 32px;
+      align-items: flex-start;
+    }
+
+    .contato-card {
+      background: #f8fafc;
+      border-radius: 18px;
+      border: 1px solid #e2e8f0;
+      padding: 18px 16px 20px;
+    }
+
+    .contato-card h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+      color: var(--azul-escuro);
+    }
+
+    .contato-linha {
+      font-size: 13px;
+      margin-bottom: 4px;
+      color: var(--texto-principal);
+    }
+
+    .contato-linha span {
+      color: var(--texto-suave);
+      font-size: 12px;
+    }
+
+    .contato-form label {
+      display: block;
+      font-size: 12px;
+      color: var(--texto-suave);
+      margin-bottom: 4px;
+      margin-top: 8px;
+    }
+
+    .contato-form input,
+    .contato-form textarea {
+      width: 100%;
+      padding: 9px 10px;
+      border-radius: 10px;
+      border: 1px solid #d1d5db;
+      font-size: 13px;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+      background: #ffffff;
+    }
+
+    .contato-form input:focus,
+    .contato-form textarea:focus {
+      border-color: var(--azul-medio);
+      box-shadow: 0 0 0 1px rgba(15, 111, 255, 0.3);
+      background: #f9fbff;
+    }
+
+    .contato-form textarea {
+      resize: vertical;
+      min-height: 90px;
+    }
+
+    .btn-form {
+      margin-top: 12px;
+      padding: 11px 20px;
+      border-radius: 999px;
+      background: var(--azul-medio);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+      box-shadow: 0 14px 28px rgba(15, 111, 255, 0.4);
+      width: 100%;
+    }
+
+    .btn-form:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.03);
+      box-shadow: 0 18px 35px rgba(15, 111, 255, 0.5);
+    }
+
+    .faq-mini {
+      font-size: 13px;
+      color: var(--texto-suave);
+    }
+
+    .faq-mini h3 {
+      font-size: 15px;
+      color: var(--azul-escuro);
+      margin-bottom: 8px;
+    }
+
+    .faq-item {
+      margin-bottom: 8px;
+    }
+
+    .faq-item strong {
+      display: block;
+      margin-bottom: 2px;
+      color: var(--texto-principal);
+    }
+
+    /* ============= FOOTER ============= */
+    footer {
+      background: #020617;
+      color: #9ca3af;
+      padding: 20px;
+      font-size: 12px;
+    }
+
+    .footer-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .footer-inner a {
+      color: #e5e7eb;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-underline-offset: 3px;
+    }
+
+    /* ============= BOTÃO WHATSAPP FIXO ============= */
+    .whats-floating {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 60;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+    }
+
+    .whats-floating span {
+      background: rgba(15, 23, 42, 0.92);
+      color: #e5e7eb;
+      padding: 6px 10px;
+      border-radius: 10px;
+      font-size: 11px;
+      max-width: 220px;
+    }
+
+    .whats-floating a {
+      width: 54px;
+      height: 54px;
+      border-radius: 999px;
+      background: #25d366;
+      box-shadow: 0 16px 32px rgba(37, 211, 102, 0.55);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 28px;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+    }
+
+    .whats-floating a:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 22px 40px rgba(37, 211, 102, 0.7);
+      filter: brightness(1.03);
+    }
+
+    /* ============= RESPONSIVIDADE OTIMIZADA PARA MOBILE ============= */
+    
+    /* Tablets e telas médias */
+    @media (max-width: 960px) {
+      nav ul {
+        display: none;
+      }
+
+      .hero-inner,
+      .promo-grid,
+      .beneficios-grid,
+      .contato-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-inner {
+        padding-top: 36px;
+      }
+
+      .hero-media {
+        order: -1;
+      }
+
+      .hero h2 {
+        font-size: 30px;
+      }
+
+      .section-title {
+        font-size: 22px;
+      }
+
+      .services-grid,
+      .testemunhos-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      
+      /* Melhorias para tablet */
+      .nav-phone {
+        display: none;
+      }
+      
+      .promo-ribbon {
+        font-size: 10px;
+        padding: 4px 35px;
+      }
+    }
+
+    /* Smartphones */
+    @media (max-width: 640px) {
+      /* Header otimizado */
+      .nav-container {
+        padding: 12px 14px;
+        gap: 12px;
+      }
+
+      .logo-mark {
+        width: 34px;
+        height: 34px;
+        font-size: 18px;
+      }
+
+      .logo-text h1 {
+        font-size: 16px;
+      }
+
+      .logo-text span {
+        font-size: 9px;
+        display: block;
+        max-width: 180px;
+        line-height: 1.2;
+      }
+
+      .btn-whats-nav {
+        padding: 8px 12px;
+        font-size: 12px;
+      }
+
+      /* Barra de urgência */
+      .top-bar {
+        font-size: 10px;
+        padding: 6px 10px;
+        gap: 4px;
+      }
+
+      .top-bar span {
+        padding: 2px 6px;
+        font-size: 9px;
+      }
+
+      /* Hero otimizado */
+      .hero-inner {
+        padding: 24px 16px 36px;
+        gap: 24px;
+      }
+
+      .hero h2 {
+        font-size: 24px;
+        line-height: 1.2;
+        margin-bottom: 12px;
+      }
+
+      .hero-subtitle {
+        font-size: 14px;
+        margin-bottom: 18px;
+      }
+
+      .hero-badge {
+        font-size: 10px;
+        padding: 4px 8px;
+        margin-bottom: 10px;
+      }
+
+      .hero-highlights {
+        gap: 8px;
+        margin-bottom: 20px;
+        font-size: 12px;
+      }
+
+      .hero-highlights div {
+        padding: 4px 8px;
+        font-size: 11px;
+      }
+
+      .hero-cta-group {
+        gap: 10px;
+        margin-bottom: 16px;
+      }
+
+      .btn-cta {
+        width: 100%;
+        justify-content: center;
+        padding: 14px 20px;
+        font-size: 14px;
+      }
+
+      .btn-secundario {
+        width: 100%;
+        text-align: center;
+        padding: 12px 18px;
+        font-size: 12px;
+      }
+
+      .hero-garantia {
+        font-size: 11px;
+        gap: 8px;
+      }
+
+      .hero-garantia span.badge {
+        font-size: 10px;
+        padding: 3px 8px;
+      }
+
+      .hero-photo-wrapper {
+        border-radius: 18px;
+      }
+
+      .hero-floating-card {
+        left: 12px;
+        right: 12px;
+        bottom: 12px;
+        max-width: none;
+        padding: 10px 12px;
+        font-size: 10px;
+        border-radius: 14px;
+      }
+
+      .hero-floating-card strong {
+        font-size: 12px;
+        margin-bottom: 3px;
+      }
+
+      /* Seções gerais */
+      section {
+        padding: 36px 16px;
+      }
+
+      .section-head {
+        margin-bottom: 24px;
+      }
+
+      .section-eyebrow {
+        font-size: 10px;
+        margin-bottom: 5px;
+      }
+
+      .section-title {
+        font-size: 20px;
+        line-height: 1.3;
+      }
+
+      .section-subtitle {
+        font-size: 13px;
+      }
+
+      /* Promoção otimizada */
+      .promo-grid {
+        gap: 24px;
+      }
+
+      .alert-tag {
+        font-size: 10px;
+        padding: 4px 8px;
+      }
+
+      .promo-list {
+        font-size: 13px;
+        margin-top: 10px;
+      }
+
+      .promo-list li {
+        margin-bottom: 6px;
+      }
+
+      .promo-card {
+        padding: 20px 16px;
+        border-radius: 18px;
+      }
+
+      .promo-card h3 {
+        font-size: 18px;
+      }
+
+      .promo-card p {
+        font-size: 12px;
+        margin-bottom: 12px;
+      }
+
+      .promo-ribbon {
+        font-size: 9px;
+        padding: 4px 30px;
+        top: 12px;
+        right: -35px;
+      }
+
+      .promo-preco-linha {
+        gap: 8px;
+        margin-bottom: 6px;
+      }
+
+      .preco-atual {
+        font-size: 26px;
+      }
+
+      .preco-atual sup {
+        font-size: 12px;
+      }
+
+      .preco-antigo {
+        font-size: 13px;
+      }
+
+      .promo-detalhe {
+        font-size: 10px;
+        margin-bottom: 12px;
+      }
+
+      .promo-vagas {
+        font-size: 10px;
+      }
+
+      .btn-cta-promo {
+        margin-top: 14px;
+        padding: 13px 0;
+        font-size: 13px;
+      }
+
+      /* Serviços em coluna única */
+      .services-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+
+      .service-card {
+        padding: 16px 14px;
+        border-radius: 16px;
+      }
+
+      .service-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 15px;
+      }
+
+      .service-title {
+        font-size: 14px;
+      }
+
+      .service-text {
+        font-size: 12px;
+      }
+
+      .service-tag {
+        font-size: 10px;
+        padding: 3px 8px;
+      }
+
+      /* Benefícios otimizados */
+      .beneficios-grid {
+        gap: 24px;
+      }
+
+      .beneficios-lista {
+        font-size: 13px;
+      }
+
+      .beneficios-lista li {
+        gap: 8px;
+        margin-bottom: 8px;
+      }
+
+      .beneficios-lista li span.icon {
+        width: 20px;
+        height: 20px;
+        font-size: 13px;
+      }
+
+      .beneficios-high {
+        font-size: 12px;
+        margin-top: 12px;
+      }
+
+      .beneficios-card {
+        padding: 16px;
+        border-radius: 18px;
+      }
+
+      .beneficios-card h3 {
+        font-size: 16px;
+      }
+
+      .beneficios-card p {
+        font-size: 12px;
+        margin-bottom: 12px;
+      }
+
+      .beneficios-metricas {
+        gap: 12px;
+        font-size: 11px;
+      }
+
+      .beneficios-metricas div strong {
+        font-size: 16px;
+      }
+
+      /* Depoimentos em coluna única */
+      .testemunhos-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+
+      .testemunho-card {
+        padding: 14px;
+        border-radius: 16px;
+        font-size: 12px;
+      }
+
+      .testemunho-header {
+        gap: 8px;
+        margin-bottom: 6px;
+      }
+
+      .testemunho-avatar {
+        width: 28px;
+        height: 28px;
+        font-size: 13px;
+      }
+
+      .testemunho-info strong {
+        font-size: 13px;
+      }
+
+      .testemunho-info span {
+        font-size: 10px;
+      }
+
+      .testemunho-stars {
+        font-size: 11px;
+      }
+
+      /* Contato otimizado */
+      .contato-grid {
+        gap: 20px;
+      }
+
+      .contato-card {
+        padding: 16px 14px;
+        border-radius: 16px;
+      }
+
+      .contato-card h3 {
+        font-size: 15px;
+        margin-bottom: 6px;
+      }
+
+      .contato-linha {
+        font-size: 12px;
+      }
+
+      .contato-linha span {
+        font-size: 11px;
+      }
+
+      .contato-form label {
+        font-size: 11px;
+        margin-top: 6px;
+      }
+
+      .contato-form input,
+      .contato-form textarea {
+        padding: 8px 10px;
+        font-size: 12px;
+        border-radius: 8px;
+      }
+
+      .contato-form textarea {
+        min-height: 80px;
+      }
+
+      .btn-form {
+        margin-top: 10px;
+        padding: 11px 18px;
+        font-size: 12px;
+      }
+
+      .faq-mini {
+        font-size: 12px;
+        margin-top: 8px;
+      }
+
+      .faq-mini h3 {
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+
+      .faq-item {
+        margin-bottom: 6px;
+      }
+
+      .faq-item strong {
+        font-size: 12px;
+      }
+
+      .faq-item p {
+        font-size: 12px;
+      }
+
+      /* Footer otimizado */
+      footer {
+        padding: 16px 14px;
+        font-size: 11px;
+      }
+
+      .footer-inner {
+        gap: 8px;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      /* WhatsApp flutuante */
+      .whats-floating {
+        right: 14px;
+        bottom: 14px;
+      }
+
+      .whats-floating span {
+        display: none;
+      }
+
+      .whats-floating a {
+        width: 52px;
+        height: 52px;
+        font-size: 26px;
+      }
+    }
+
+    /* Smartphones pequenos (até 375px) */
+    @media (max-width: 375px) {
+      .logo-text h1 {
+        font-size: 14px;
+      }
+
+      .logo-text span {
+        font-size: 8px;
+        max-width: 160px;
+      }
+
+      .hero h2 {
+        font-size: 22px;
+      }
+
+      .section-title {
+        font-size: 18px;
+      }
+
+      .btn-cta {
+        padding: 13px 18px;
+        font-size: 13px;
+      }
+
+      .promo-card h3 {
+        font-size: 16px;
+      }
+
+      .preco-atual {
+        font-size: 24px;
+      }
+
+      .whats-floating a {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+      }
+    }
+
+    /* Melhorias de performance e acessibilidade */
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    /* Otimização para toque */
+    @media (hover: none) and (pointer: coarse) {
+      .btn-cta:hover,
+      .btn-whats-nav:hover,
+      .btn-form:hover,
+      .service-card:hover,
+      .whats-floating a:hover {
+        transform: none;
+      }
+
+      .btn-cta:active,
+      .btn-whats-nav:active,
+      .btn-form:active {
+        transform: scale(0.98);
+      }
+
+      .service-card:active {
+        transform: translateY(-2px);
+      }
+
+      .whats-floating a:active {
+        transform: scale(0.95);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- BARRA PROMO -->
+  <div class="top-bar">
+    <span>Oferta Limitada</span>
+    Higienização completa com desconto especial • Prioridade para primeiros agendamentos do dia
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-mark">JI</div>
+        <div class="logo-text">
+          <h1>JICLIMATIZAÇÃO</h1>
+          <span>Higienização & Manutenção de Ar Condicionado</span>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <div class="nav-phone">
+          Atendimento: <strong>(11) 94910-4621</strong>
+        </div>
+        <a href="https://api.whatsapp.com/send?phone=5511949104621&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20site%20da%20JICLIMATIZA%C3%87%C3%83O%20e%20quero%20agendar%20a%20higieniza%C3%A7%C3%A3o%20do%20meu%20ar%20condicionado."
+           target="_blank" class="btn-whats-nav">
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO (com ÚNICA FOTO principal de limpeza) -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span></span> Ar limpo, saúde e economia de energia
+        </div>
+        <h2>Higienização profissional de ar condicionado em <span>São Paulo</span>.</h2>
+        <p class="hero-subtitle">
+          Evite mau cheiro, alergias e aumento no gasto de energia. Nossa equipe especializada faz a limpeza completa do seu equipamento com segurança e garantia.
+        </p>
+
+        <div class="hero-highlights">
+          <div><span></span> Atendimento em até 24h (mediante agenda)</div>
+          <div><span></span> Técnicos certificados e uniformizados</div>
+          <div><span></span> Higienização com produtos específicos e seguros</div>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="https://api.whatsapp.com/send?phone=5511949104621&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20a%20higieniza%C3%A7%C3%A3o%20do%20meu%20ar%20condicionado%20por%20R%24%20250%2C00."
+             target="_blank" class="btn-cta">
+            Agendar Higienização Agora
+          </a>
+          <a href="#servicos" class="btn-secundario">Ver todos os serviços</a>
+        </div>
+
+        <div class="hero-garantia">
+          <span class="badge">Garantia de Serviço</span>
+          <span>7 dias para revisão gratuita em caso de qualquer ocorrência no serviço realizado.</span>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="hero-photo-wrapper">
+          <!-- ÚNICA FOTO PRINCIPAL DE LIMPEZA DE AR CONDICIONADO -->
+          <img src="https://images.unsplash.com/photo-1607379969451-3df5c752f315?auto=format&fit=crop&q=80&w=1200"
+               alt="Técnico realizando higienização de ar condicionado split" loading="lazy" />
+        </div>
+
+        <div class="hero-floating-card">
+          <strong>+ de 300 aparelhos higienizados</strong>
+          <p>Clientes satisfeitos com melhora na qualidade do ar, fim do mau cheiro e economia na conta de luz.</p>
+          <span>Avaliação média 4.9 ★</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMOÇÃO (preço 280 por 250) -->
+  <section class="promo">
+    <div class="section-inner promo-grid">
+      <div>
+        <div class="alert-tag">
+          <span></span> Oferta especial para novos clientes
+        </div>
+        <h2 class="section-title">Promoção exclusiva de higienização completa.</h2>
+        <p class="section-subtitle">
+          Para aparelhos Split até 12.000 BTUs. Serviço completo com desmontagem do filtro, limpeza de bandeja, turbina e aplicação de produto bactericida.
+        </p>
+        <ul class="promo-list">
+          <li>Eliminação de fungos, bactérias e ácaros.</li>
+          <li>Redução de ruídos e melhora na eficiência do aparelho.</li>
+          <li>Recomendado a cada 6 meses para uso residencial.</li>
+        </ul>
+      </div>
+
+      <aside class="promo-card" aria-label="Cartão de promoção de higienização de ar condicionado">
+        <div class="promo-ribbon">Somente esta semana</div>
+        <h3>Higienização Split até 12.000 BTUs</h3>
+        <p>Atendimento residencial e pequenos comércios em São Paulo e região.</p>
+
+        <div class="promo-preco-linha">
+          <div class="preco-atual"><sup>R$</sup>250</div>
+          <div class="preco-antigo">De R$ 280</div>
+        </div>
+        <p class="promo-detalhe">Valor por unidade, para pagamento em dinheiro ou PIX. Consulte condições para mais aparelhos.</p>
+
+        <a href="https://api.whatsapp.com/send?phone=5511949104621&text=Ol%C3%A1%2C%20quero%20aproveitar%20a%20promo%C3%A7%C3%A3o%20de%20higieniza%C3%A7%C3%A3o%20por%20R%24%20250%2C00."
+           target="_blank" class="btn-cta btn-cta-promo">
+          Aproveitar promoção pelo WhatsApp
+        </a>
+
+        <p class="promo-vagas">
+          <span></span> Vagas reduzidas por dia para garantir qualidade do atendimento.
+        </p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="services">
+    <div class="section-inner">
+      <div class="section-head">
+        <div class="section-eyebrow">Nossos serviços</div>
+        <h2 class="section-title">Tudo o que seu ar condicionado precisa.</h2>
+        <p class="section-subtitle">
+          Atendimento residencial e comercial com foco em segurança, transparência e resultado. Trabalhamos com as principais marcas do mercado.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">🧼</div>
+          <h3 class="service-title">Higienização completa</h3>
+          <p class="service-text">
+            Limpeza de filtro, serpentina, bandeja e turbina com produtos específicos que eliminam fungos, bactérias e odores.
+          </p>
+          <span class="service-tag">Recomendado a cada 6 meses</span>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3 class="service-title">Manutenção preventiva</h3>
+          <p class="service-text">
+            Revisão geral, reaperto de conexões, verificação de dreno e inspeção de componentes para evitar futuras quebras.
+          </p>
+          <span class="service-tag">Ideal para empresas</span>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">❄️</div>
+          <h3 class="service-title">Instalação de splits</h3>
+          <p class="service-text">
+            Instalações novas ou remanejamento de aparelhos, seguindo as boas práticas recomendadas pelos fabricantes.
+          </p>
+          <span class="service-tag">Planejamento de pontos</span>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🧪</div>
+          <h3 class="service-title">Avaliação de gás refrigerante</h3>
+          <p class="service-text">
+            Verificação básica de funcionamento do sistema, orientação sobre recarga e possíveis vazamentos.
+          </p>
+          <span class="service-tag">Uso com responsabilidade</span>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🏢</div>
+          <h3 class="service-title">Contratos para empresas</h3>
+          <p class="service-text">
+            Planos de manutenção programada para escritórios, lojas e pequenos negócios, evitando paradas inesperadas.
+          </p>
+          <span class="service-tag">Plano sob medida</span>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">📋</div>
+          <h3 class="service-title">Relatório básico de serviço</h3>
+          <p class="service-text">
+            Entrega de checklist simples ao final da visita, com o que foi verificado e orientações de uso.
+          </p>
+          <span class="service-tag">Transparência total</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section id="beneficios" class="beneficios">
+    <div class="section-inner beneficios-grid">
+      <div>
+        <div class="section-head">
+          <div class="section-eyebrow">Por que higienizar?</div>
+          <h2 class="section-title">Mais saúde, conforto e economia.</h2>
+          <p class="section-subtitle">
+            A falta de limpeza do ar condicionado pode causar problemas respiratórios, mau cheiro, aumento da conta de energia e diminuição da vida útil do aparelho.
+          </p>
+        </div>
+
+        <ul class="beneficios-lista">
+          <li>
+            <span class="icon">💨</span>
+            <div>
+              <strong>Qualidade do ar muito melhor</strong>
+              <p>Reduz poeira, mofo e micro-organismos que circulam no ambiente, ajudando quem tem alergia ou rinite.</p>
+            </div>
+          </li>
+          <li>
+            <span class="icon">⚡</span>
+            <div>
+              <strong>Economia na conta de luz</strong>
+              <p>Filtros limpos e serpentina em bom estado fazem o aparelho trabalhar menos para atingir a temperatura.</p>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🔇</span>
+            <div>
+              <strong>Menos ruído e mais conforto</strong>
+              <p>Limpeza adequada reduz vibrações e barulhos internos, deixando o ambiente mais agradável.</p>
+            </div>
+          </li>
+          <li>
+            <span class="icon">🛡️</span>
+            <div>
+              <strong>Maior durabilidade do equipamento</strong>
+              <p>Prevenção de vazamentos, entupimento de dreno e desgaste excessivo de peças internas.</p>
+            </div>
+          </li>
+        </ul>
+
+        <p class="beneficios-high">
+          Faça sua higienização com profissionais. A JICLIMATIZAÇÃO segue boas práticas e utiliza produtos adequados para cada tipo de equipamento.
+        </p>
+      </div>
+
+      <aside class="beneficios-card">
+        <div class="beneficios-card-inner">
+          <h3>Plano de cuidado contínuo</h3>
+          <p>
+            Para quem quer manter o ar condicionado sempre em dia, oferecemos planos de visitas programadas com lembrete automático.
+          </p>
+          <div class="beneficios-metricas">
+            <div>
+              <strong>6 em 6</strong>
+              <span>Higienização recomendada para uso residencial constante.</span>
+            </div>
+            <div>
+              <strong>3 em 3</strong>
+              <span>Intervalo ideal para ambientes comerciais com grande fluxo.</span>
+            </div>
+            <div>
+              <strong>+20%</strong>
+              <span>Potencial de economia média em energia com aparelho em boas condições.</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section id="depoimentos" class="testemunhos">
+    <div class="section-inner">
+      <div class="section-head">
+        <div class="section-eyebrow">Depoimentos</div>
+        <h2 class="section-title">O que nossos clientes dizem.</h2>
+        <p class="section-subtitle">
+          Atendimento humanizado, pontualidade e serviço bem feito. Veja alguns comentários de clientes atendidos.
+        </p>
+      </div>
+
+      <div class="testemunhos-grid">
+        <article class="testemunho-card">
+          <div class="testemunho-header">
+            <div class="testemunho-avatar">A</div>
+            <div class="testemunho-info">
+              <strong>Ana Paula</strong>
+              <span>Residencial • Split 9.000 BTUs</span>
+            </div>
+          </div>
+          <div class="testemunho-stars">★★★★★</div>
+          <p>
+            Depois da higienização o ar ficou muito mais forte e o cheiro ruim sumiu. O técnico explicou tudo o que estava fazendo, recomendo!
+          </p>
+        </article>
+
+        <article class="testemunho-card">
+          <div class="testemunho-header">
+            <div class="testemunho-avatar">M</div>
+            <div class="testemunho-info">
+              <strong>Marcelo Silva</strong>
+              <span>Loja de roupas • 3 aparelhos</span>
+            </div>
+          </div>
+          <div class="testemunho-stars">★★★★★</div>
+          <p>
+            Fechamos um pacote para os aparelhos da loja e estamos bem satisfeitos. O ambiente ficou mais agradável para os clientes.
+          </p>
+        </article>
+
+        <article class="testemunho-card">
+          <div class="testemunho-header">
+            <div class="testemunho-avatar">C</div>
+            <div class="testemunho-info">
+              <strong>Carolina Reis</strong>
+              <span>Escritório home office</span>
+            </div>
+          </div>
+          <div class="testemunho-stars">★★★★★</div>
+          <p>
+            Atendimento pontual e cuidadoso com o apartamento. Vou manter a rotina de limpeza com eles de agora em diante.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contato">
+    <div class="section-inner contato-grid">
+      <div>
+        <div class="section-head">
+          <div class="section-eyebrow">Agende sua visita</div>
+          <h2 class="section-title">Entre em contato com a JICLIMATIZAÇÃO.</h2>
+          <p class="section-subtitle">
+            Informe rapidamente o tipo de aparelho, quantidade e bairro. Retornamos com a melhor condição e horário disponível.
+          </p>
+        </div>
+
+        <div class="contato-card">
+          <h3>WhatsApp e telefone</h3>
+          <p class="contato-linha">
+            Telefone / WhatsApp: <strong>(11) 94910-4621</strong><br/>
+            <span>Segunda a sábado, das 8h às 18h.</span>
+          </p>
+          <p class="contato-linha">
+            E-mail: <strong>contato@jiclimatizacao.com.br</strong><br/>
+            <span>Retornamos em até 1 dia útil.</span>
+          </p>
+        </div>
+
+        <div style="margin-top: 12px; font-size: 12px; color: var(--texto-suave);">
+          Atendemos em: São Paulo e região. (Você pode detalhar bairros ou zonas aqui).
+        </div>
+      </div>
+
+      <aside class="contato-card">
+        <h3>Solicite um orçamento rápido</h3>
+        <form class="contato-form">
+          <label for="nome">Nome completo</label>
+          <input id="nome" type="text" name="nome" placeholder="Ex: João da Silva" />
+
+          <label for="telefone">Telefone / WhatsApp</label>
+          <input id="telefone" type="tel" name="telefone" placeholder="(11) 9 4910-4621" />
+
+          <label for="mensagem">Descreva seu aparelho e endereço</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Ex: 2 aparelhos split 12.000 BTUs, apartamento no bairro X, melhor período: manhã/tarde."></textarea>
+
+          <button type="button" class="btn-form">
+            Enviar (ajustar integração de formulário)
+          </button>
+        </form>
+      </aside>
+
+      <div class="faq-mini" style="grid-column: 1 / -1; margin-top: 10px;">
+        <h3>Dúvidas rápidas</h3>
+        <div class="faq-item">
+          <strong>De quanto em quanto tempo devo fazer a higienização?</strong>
+          <p>Para uso residencial, normalmente indicamos a cada 6 meses. Em ambientes comerciais ou com grande circulação, a cada 3 meses.</p>
+        </div>
+        <div class="faq-item">
+          <strong>Vocês atendem quais marcas?</strong>
+          <p>Atendemos as principais marcas do mercado: Samsung, LG, Springer, Consul, Electrolux, Fujitsu, Daikin, entre outras.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>© <span id="ano"></span> JICLIMATIZAÇÃO — Todos os direitos reservados.</div>
+      <div>Site otimizado para aparecer melhor no Google | <a href="#topo">Voltar ao topo</a></div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <div class="whats-floating">
+    <span>Precisa falar rápido? Clique e chame no WhatsApp.</span>
+    <a href="https://api.whatsapp.com/send?phone=5511949104621&text=Ol%C3%A1%2C%20vi%20o%20site%20da%20JICLIMATIZA%C3%87%C3%83O%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20higieniza%C3%A7%C3%A3o."
+       target="_blank" aria-label="Abrir conversa no WhatsApp">
+      ⟟
+    </a>
+  </div>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
