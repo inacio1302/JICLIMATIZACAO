@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quanto tempo leva a higienização de um ar-condicionado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Normalmente entre 40 minutos a 1 hora, dependendo do tipo e quantidade de equipamentos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Vocês atendem residências e empresas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, atendemos tanto residências quanto empresas na Grande São Paulo."
+      }
+    }
+  ]
+}
