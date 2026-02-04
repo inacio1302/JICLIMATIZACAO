@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Higienização e Manutenção de Ar-Condicionado",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "JICLIMATIZA",
+    "telephone": "+5511949104621"
+  },
+  "areaServed": [
+    "Guarulhos",
+    "ABC Paulista",
+    "Zona Leste SP",
+    "Zona Oeste SP",
+    "Osasco",
+    "Barueri",
+    "Alphaville"
+  ]
+}
