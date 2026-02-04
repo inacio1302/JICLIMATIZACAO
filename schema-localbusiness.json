@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "JICLIMATIZA",
+  "image": "https://www.jiclimatiza.com.br/images/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Exemplo, 123",
+    "addressLocality": "Guarulhos",
+    "addressRegion": "SP",
+    "postalCode": "07000-000",
+    "addressCountry": "BR"
+  },
+  "telephone": "+5511949104621",
+  "email": "contato@jiclimatiza.com.br",
+  "url": "https://www.jiclimatiza.com.br",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "10"
+  }
+}
