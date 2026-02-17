@@ -1,5 +1,3 @@
 User-agent: *
-Disallow: /private/
 Allow: /
-
 Sitemap: https://www.jiclimatiza.com.br/sitemap.xml
